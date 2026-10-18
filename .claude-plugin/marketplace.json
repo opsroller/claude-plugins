@@ -13,7 +13,7 @@
         "source": "github",
         "repo": "opsroller/engineering-practices"
       },
-      "description": "Shared working practices for every role: project onboarding, git with Conventional Commits, work packages, talking to other agents, and asset and code provenance."
+      "description": "Shared base for every role: project onboarding, trunk-based git with Conventional Commits and squash merge, work packages, direct peer coordination, provenance and licensing of contributions, and Diataxis documentation built into the work."
     },
     {
       "name": "project-manager",
@@ -29,7 +29,7 @@
         "source": "github",
         "repo": "opsroller/game-designer"
       },
-      "description": "Game designer: documents how a game plays, designs levels and progression, balances difficulty with simulation, and sets feel targets."
+      "description": "Game designer role: rules and systems design, implementable and testable specs, level design and progression, economy and balance with simulation, game feel, playtesting and iteration, and reconstructing an existing game's design from observation."
     },
     {
       "name": "gameplay-programmer",
@@ -37,7 +37,7 @@
         "source": "github",
         "repo": "opsroller/gameplay-programmer"
       },
-      "description": "Gameplay programmer: implements game rules and systems as deterministic, tested code with a clean boundary to the engine."
+      "description": "Gameplay programmer: turns game rules and systems into deterministic, engine-independent, tested code; binds it to the engine through a thin layer; keeps content data-driven; debugs and profiles gameplay."
     },
     {
       "name": "graphics-programmer",
@@ -45,7 +45,7 @@
         "source": "github",
         "repo": "opsroller/graphics-programmer"
       },
-      "description": "Graphics programmer: builds what the player sees in real time: scenes, camera, lighting, animation driven by game events, input, and rendering performance."
+      "description": "Graphics programmer role: builds what the player sees and touches in real time: scene composition, cameras, game events presented as animation decoupled from logic, input across mouse, touch and controller, frame-time budgets and CPU/GPU profiling, scaling from low-end mobile to desktop, and rendering for web builds."
     },
     {
       "name": "technical-artist",
@@ -53,7 +53,7 @@
         "source": "github",
         "repo": "opsroller/technical-artist"
       },
-      "description": "Technical artist: creates original 3D models, materials, textures and shaders, preferably by script, and runs the asset pipeline into the engine."
+      "description": "Technical artist role: the bridge between art and engineering for real-time 3D. Authored and procedural assets, PBR materials and shaders, look-dev support, asset pipeline and import validation, naming, art budgets and profiling, LODs, tools for artists, and provenance of every asset."
     },
     {
       "name": "sound-designer",
@@ -61,7 +61,7 @@
         "source": "github",
         "repo": "opsroller/sound-designer"
       },
-      "description": "Sound designer: creates original sound effects, music and ambience, and integrates them through a cue system with clean mixing."
+      "description": "Sound designer role: creates original sound effects, music and ambience by synthesis, recording and layering; builds adaptive audio and implements it as named cues; mixes to measured loudness targets within format and memory budgets; and records the provenance and licence of every sound."
     },
     {
       "name": "ui-developer",
@@ -69,7 +69,7 @@
         "source": "github",
         "repo": "opsroller/ui-developer"
       },
-      "description": "UI developer: builds menus, HUDs and screens that bind to game state, with clean navigation, localisation and accessibility."
+      "description": "UI developer (UI engineer) role: implements in-app UI (menus, HUD, dialogs, settings) from the visual design, with sound UI architecture and state, responsive layout across screens and safe areas, localization and internationalization, accessibility, and touch, mouse, keyboard and controller input."
     },
     {
       "name": "devops-engineer",
@@ -77,7 +77,7 @@
         "source": "github",
         "repo": "opsroller/devops-engineer"
       },
-      "description": "DevOps engineer: CI pipelines, cross-platform builds, releases from Conventional Commits, store submissions, and open-source license compliance and credits."
+      "description": "DevOps / build and release engineer: CI/CD pipelines, reproducible cross-platform builds and caching, semantic-versioned releases, store distribution and signing, supply-chain security (pinning, SBOM, SLSA provenance), license compliance automation, and pipeline observability with DORA metrics."
     },
     {
       "name": "frontend-web-developer",
@@ -85,7 +85,7 @@
         "source": "github",
         "repo": "opsroller/frontend-web-developer"
       },
-      "description": "Front-end web developer: builds fast, accessible static websites, such as a product's landing and download site, with platform detection, store links and credits."
+      "description": "Front-end web developer role: builds fast, accessible, privacy-respecting websites: static sites, landing and download pages with platform detection and store links, embedded interactive web builds, credits and licensing pages, WCAG 2.2 AA, SEO, Core Web Vitals, hosting and deployment."
     },
     {
       "name": "graphic-designer",
@@ -93,7 +93,7 @@
         "source": "github",
         "repo": "opsroller/graphic-designer"
       },
-      "description": "Graphic designer: owns visual identity and 2D design: logo, colour and type, app icons, store and marketing art, UI visual design and website visuals."
+      "description": "Graphic designer role: visual identity (logo system, colour, type, iconography, brand guidelines), app icons and store/marketing art to each store's current specs, UI visual design handed to the UI developer, and website visuals handed to the front-end web developer. 2D only."
     },
     {
       "name": "code-reviewer",
@@ -101,7 +101,7 @@
         "source": "github",
         "repo": "opsroller/code-reviewer"
       },
-      "description": "Code reviewer: reviews pull requests for design, correctness, tests, security, performance and readability, with labelled comments and a clear verdict."
+      "description": "Code reviewer role: reviews pull requests for design, correctness, tests, security, performance and documentation (Diataxis), writes Conventional Comments with severity labels, gives one verdict per round and follows up until the change lands."
     },
     {
       "name": "technical-writer",
