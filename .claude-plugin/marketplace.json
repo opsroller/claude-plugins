@@ -1,0 +1,99 @@
+{
+  "name": "opsroller",
+  "owner": {
+    "name": "opsroller"
+  },
+  "metadata": {
+    "description": "Job-function plugins: reusable roles for agent teams, each in its own repository and versioned on its own."
+  },
+  "plugins": [
+    {
+      "name": "engineering-practices",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/engineering-practices"
+      },
+      "description": "Shared working practices for every role: project onboarding, git with Conventional Commits, work packages, talking to other agents, and asset and code provenance."
+    },
+    {
+      "name": "game-designer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/game-designer"
+      },
+      "description": "Game designer: documents how a game plays, designs levels and progression, balances difficulty with simulation, and sets feel targets."
+    },
+    {
+      "name": "gameplay-programmer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/gameplay-programmer"
+      },
+      "description": "Gameplay programmer: implements game rules and systems as deterministic, tested code with a clean boundary to the engine."
+    },
+    {
+      "name": "graphics-programmer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/graphics-programmer"
+      },
+      "description": "Graphics programmer: builds what the player sees in real time: scenes, camera, lighting, animation driven by game events, input, and rendering performance."
+    },
+    {
+      "name": "technical-artist",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/technical-artist"
+      },
+      "description": "Technical artist: creates original 3D models, materials, textures and shaders, preferably by script, and runs the asset pipeline into the engine."
+    },
+    {
+      "name": "sound-designer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/sound-designer"
+      },
+      "description": "Sound designer: creates original sound effects, music and ambience, and integrates them through a cue system with clean mixing."
+    },
+    {
+      "name": "ui-developer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/ui-developer"
+      },
+      "description": "UI developer: builds menus, HUDs and screens that bind to game state, with clean navigation, localisation and accessibility."
+    },
+    {
+      "name": "devops-engineer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/devops-engineer"
+      },
+      "description": "DevOps engineer: CI pipelines, cross-platform builds, releases from Conventional Commits, store submissions, and open-source license compliance and credits."
+    },
+    {
+      "name": "frontend-web-developer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/frontend-web-developer"
+      },
+      "description": "Front-end web developer: builds fast, accessible static websites, such as a product's landing and download site, with platform detection, store links and credits."
+    },
+    {
+      "name": "graphic-designer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/graphic-designer"
+      },
+      "description": "Graphic designer: owns visual identity and 2D design: logo, colour and type, app icons, store and marketing art, UI visual design and website visuals."
+    },
+    {
+      "name": "code-reviewer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/code-reviewer"
+      },
+      "description": "Code reviewer: reviews pull requests for design, correctness, tests, security, performance and readability, with labelled comments and a clear verdict."
+    }
+  ]
+}
