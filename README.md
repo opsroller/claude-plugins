@@ -45,6 +45,7 @@ pull request.
 | [`frontend-web-developer`](https://github.com/opsroller/frontend-web-developer) | Front-end web developer: builds fast, accessible static websites, such as a product's landing and download site, with platform detection, store links and credits. |
 | [`graphic-designer`](https://github.com/opsroller/graphic-designer) | Graphic designer: owns visual identity and 2D design: logo, colour and type, app icons, store and marketing art, UI visual design and website visuals. |
 | [`code-reviewer`](https://github.com/opsroller/code-reviewer) | Code reviewer: reviews pull requests for design, correctness, tests, security, performance and readability, with labelled comments and a clear verdict. |
+| [`technical-writer`](https://github.com/opsroller/technical-writer) | Technical writer: plans, writes, reviews and maintains documentation using the Diataxis framework (tutorials, how-to guides, reference, explanation) and docs-as-code practice. |
 
 ## License
 
