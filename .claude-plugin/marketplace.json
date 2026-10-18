@@ -45,7 +45,7 @@
         "source": "github",
         "repo": "opsroller/graphics-programmer"
       },
-      "description": "Graphics programmer role: builds what the player sees and touches in real time: scene composition, cameras, game events presented as animation decoupled from logic, input across mouse, touch and controller, frame-time budgets and CPU/GPU profiling, scaling from low-end mobile to desktop, and rendering for web builds."
+      "description": "Graphics programmer role: builds what the player sees and touches in real time: scene composition, cameras, game events presented as animation decoupled from logic, input across mouse, touch and controller, frame-time and count budgets (draw calls, triangles, memory) and CPU/GPU profiling, scaling from low-end mobile to desktop, and rendering for web builds."
     },
     {
       "name": "technical-artist",
