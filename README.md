@@ -47,6 +47,7 @@ pull request.
 | [`graphic-designer`](https://github.com/opsroller/graphic-designer) | Graphic designer: owns visual identity and 2D design: logo, colour and type, app icons, store and marketing art, UI visual design and website visuals. |
 | [`code-reviewer`](https://github.com/opsroller/code-reviewer) | Code reviewer: reviews pull requests for design, correctness, tests, security, performance and readability, with labelled comments and a clear verdict. |
 | [`technical-writer`](https://github.com/opsroller/technical-writer) | Technical writer: plans, writes, reviews and maintains documentation using the Diataxis framework (tutorials, how-to guides, reference, explanation) and docs-as-code practice. |
+| [`engineering-operations`](https://github.com/opsroller/engineering-operations) | Engineering operations: owns the team's cost, delivery health and reporting; reads every role's records, finds workflow problems and waste with a few read-only investigators, and checks that each improvement worked. |
 
 ## License
 

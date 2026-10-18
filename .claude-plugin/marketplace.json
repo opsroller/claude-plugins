@@ -110,6 +110,14 @@
         "repo": "opsroller/technical-writer"
       },
       "description": "Technical writer: plans, writes, reviews and maintains documentation using the Diataxis framework (tutorials, how-to guides, reference, explanation) and docs-as-code practice."
+    },
+    {
+      "name": "engineering-operations",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/engineering-operations"
+      },
+      "description": "Engineering operations role: reads every role's reports (workflow results, gap logs, CI and review outcomes, usage and spend), measures cost, flow and quality across the team, sends a few scoped, read-only investigators to find workflow problems and waste, and drives measured improvements through the roles that own them."
     }
   ]
 }
