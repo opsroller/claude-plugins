@@ -16,6 +16,14 @@
       "description": "Shared working practices for every role: project onboarding, git with Conventional Commits, work packages, talking to other agents, and asset and code provenance."
     },
     {
+      "name": "project-manager",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/project-manager"
+      },
+      "description": "Project manager role: turns an owner's requests into work packages, staffs each role-first, records and holds the owner's standing rules, routes and unblocks agents, and reports status in the owner's terms."
+    },
+    {
       "name": "game-designer",
       "source": {
         "source": "github",

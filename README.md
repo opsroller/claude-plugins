@@ -35,6 +35,7 @@ pull request.
 | Plugin | Job |
 |---|---|
 | [`engineering-practices`](https://github.com/opsroller/engineering-practices) | Shared working practices for every role: project onboarding, git with Conventional Commits, work packages, talking to other agents, and asset and code provenance. |
+| [`project-manager`](https://github.com/opsroller/project-manager) | Project manager role: turns an owner's requests into work packages, staffs each role-first, records and holds the owner's standing rules, routes and unblocks agents, and reports status in the owner's terms. |
 | [`game-designer`](https://github.com/opsroller/game-designer) | Game designer: documents how a game plays, designs levels and progression, balances difficulty with simulation, and sets feel targets. |
 | [`gameplay-programmer`](https://github.com/opsroller/gameplay-programmer) | Gameplay programmer: implements game rules and systems as deterministic, tested code with a clean boundary to the engine. |
 | [`graphics-programmer`](https://github.com/opsroller/graphics-programmer) | Graphics programmer: builds what the player sees in real time: scenes, camera, lighting, animation driven by game events, input, and rendering performance. |
