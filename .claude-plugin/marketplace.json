@@ -1,0 +1,115 @@
+{
+  "name": "opsroller",
+  "owner": {
+    "name": "opsroller"
+  },
+  "metadata": {
+    "description": "Job-function plugins: reusable roles for agent teams, each in its own repository and versioned on its own."
+  },
+  "plugins": [
+    {
+      "name": "engineering-practices",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/engineering-practices"
+      },
+      "description": "Shared base for every role: project onboarding, trunk-based git with Conventional Commits and squash merge, work packages, direct peer coordination, provenance and licensing of contributions, and Diataxis documentation built into the work."
+    },
+    {
+      "name": "project-manager",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/project-manager"
+      },
+      "description": "Project manager role: turns an owner's requests into work packages, staffs each role-first, records and holds the owner's standing rules, routes and unblocks agents, and reports status in the owner's terms."
+    },
+    {
+      "name": "game-designer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/game-designer"
+      },
+      "description": "Game designer role: rules and systems design, implementable and testable specs, level design and progression, economy and balance with simulation, game feel, playtesting and iteration, and reconstructing an existing game's design from observation."
+    },
+    {
+      "name": "gameplay-programmer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/gameplay-programmer"
+      },
+      "description": "Gameplay programmer: turns game rules and systems into deterministic, engine-independent, tested code; binds it to the engine through a thin layer; keeps content data-driven; debugs and profiles gameplay."
+    },
+    {
+      "name": "graphics-programmer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/graphics-programmer"
+      },
+      "description": "Graphics programmer role: builds what the player sees and touches in real time: scene composition, cameras, game events presented as animation decoupled from logic, input across mouse, touch and controller, frame-time budgets and CPU/GPU profiling, scaling from low-end mobile to desktop, and rendering for web builds."
+    },
+    {
+      "name": "technical-artist",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/technical-artist"
+      },
+      "description": "Technical artist role: the bridge between art and engineering for real-time 3D. Authored and procedural assets, PBR materials and shaders, look-dev support, asset pipeline and import validation, naming, art budgets and profiling, LODs, tools for artists, and provenance of every asset."
+    },
+    {
+      "name": "sound-designer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/sound-designer"
+      },
+      "description": "Sound designer role: creates original sound effects, music and ambience by synthesis, recording and layering; builds adaptive audio and implements it as named cues; mixes to measured loudness targets within format and memory budgets; and records the provenance and licence of every sound."
+    },
+    {
+      "name": "ui-developer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/ui-developer"
+      },
+      "description": "UI developer (UI engineer) role: implements in-app UI (menus, HUD, dialogs, settings) from the visual design, with sound UI architecture and state, responsive layout across screens and safe areas, localization and internationalization, accessibility, and touch, mouse, keyboard and controller input."
+    },
+    {
+      "name": "devops-engineer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/devops-engineer"
+      },
+      "description": "DevOps / build and release engineer: CI/CD pipelines, reproducible cross-platform builds and caching, semantic-versioned releases, store distribution and signing, supply-chain security (pinning, SBOM, SLSA provenance), license compliance automation, and pipeline observability with DORA metrics."
+    },
+    {
+      "name": "frontend-web-developer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/frontend-web-developer"
+      },
+      "description": "Front-end web developer role: builds fast, accessible, privacy-respecting websites: static sites, landing and download pages with platform detection and store links, embedded interactive web builds, credits and licensing pages, WCAG 2.2 AA, SEO, Core Web Vitals, hosting and deployment."
+    },
+    {
+      "name": "graphic-designer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/graphic-designer"
+      },
+      "description": "Graphic designer role: visual identity (logo system, colour, type, iconography, brand guidelines), app icons and store/marketing art to each store's current specs, UI visual design handed to the UI developer, and website visuals handed to the front-end web developer. 2D only."
+    },
+    {
+      "name": "code-reviewer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/code-reviewer"
+      },
+      "description": "Code reviewer role: reviews pull requests for design, correctness, tests, security, performance and documentation (Diataxis), writes Conventional Comments with severity labels, gives one verdict per round and follows up until the change lands."
+    },
+    {
+      "name": "technical-writer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/technical-writer"
+      },
+      "description": "Technical writer: plans, writes, reviews and maintains documentation using the Diataxis framework (tutorials, how-to guides, reference, explanation) and docs-as-code practice."
+    }
+  ]
+}
