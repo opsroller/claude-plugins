@@ -1,6 +1,36 @@
 # opsroller Claude plugins
 
-A catalog of job-function plugins. Each one is a role a person could hold on any team, with the skills that job needs. Every plugin lives in its own repository and is versioned on its own; this repo only lists them.
+A catalog of job-function plugins for Claude Code. Each plugin is a role a
+person could hold on any team, with the agent, skills and workflows that
+job needs. Every plugin lives in its own repository and is versioned on
+its own; this repository only lists them, as the `opsroller` marketplace.
+
+Roles never name a project or a technology they depend on. A project
+tells a role what to work with in its own `CLAUDE.md` and project profile.
+
+## Install and update (how-to)
+
+Add the marketplace once, then install the shared practices and the roles
+you need:
+
+```
+/plugin marketplace add opsroller/claude-plugins
+/plugin install engineering-practices@opsroller
+/plugin install gameplay-programmer@opsroller
+```
+
+When a plugin publishes a new version, refresh the catalog and update:
+
+```
+/plugin marketplace update opsroller
+```
+
+To add a role, create its own repository with `.claude-plugin/plugin.json`,
+`agents/`, `skills/`, `workflows/` and Diataxis docs, keep it free of
+project and stack specifics, then add its entry here in a `feat: add <role>`
+pull request.
+
+## Catalog (reference)
 
 | Plugin | Job |
 |---|---|
@@ -16,16 +46,7 @@ A catalog of job-function plugins. Each one is a role a person could hold on any
 | [`graphic-designer`](https://github.com/opsroller/graphic-designer) | Graphic designer: owns visual identity and 2D design: logo, colour and type, app icons, store and marketing art, UI visual design and website visuals. |
 | [`code-reviewer`](https://github.com/opsroller/code-reviewer) | Code reviewer: reviews pull requests for design, correctness, tests, security, performance and readability, with labelled comments and a clear verdict. |
 
-## Use
+## License
 
-```
-/plugin marketplace add opsroller/claude-plugins
-/plugin install engineering-practices@opsroller
-/plugin install gameplay-programmer@opsroller
-```
-
-A project tells a role *what* to work with in its own `CLAUDE.md` and project profile: stack, commands, paths, contracts. Roles never name a project or a technology they depend on.
-
-## Adding a role
-
-Add one only when work needs a job function no role covers. Create its own repo with `.claude-plugin/plugin.json`, `agents/<role>.md` and `skills/`, keep it free of project and stack specifics, then add a line here as `feat: add <role>`.
+Copyright (C) 2026 Charles (opsroller) and contributors. Licensed under the
+GNU General Public License v2.0 or later (`GPL-2.0-or-later`); see `LICENSE`.
