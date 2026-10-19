@@ -50,6 +50,7 @@ pull request.
 | [`engineering-operations`](https://github.com/opsroller/engineering-operations) | Engineering operations: owns the team's cost, delivery health and reporting; reads every role's records, finds workflow problems and waste with a few read-only investigators, and checks that each improvement worked. |
 | [`metal-engineer`](https://github.com/opsroller/metal-engineer) | Metal engineer: builds GPU code on Apple platforms at the 27 releases with Metal 4 and MSL 4.1: renderer and compute architecture on tile-based GPUs, shaders, device tiers, validation and captures, counter-based profiling and GPU tests, alongside Apple's own Xcode and Metal agent skills. |
 | [`it-support`](https://github.com/opsroller/it-support) | IT support: keeps workstations, servers and virtual machines working: support requests from report to root cause, NixOS and other operating systems as code, nixpkgs search through a bundled MCP server, NVIDIA drivers and CUDA, and libvirt/KVM virtual machines. |
+| [`historian`](https://github.com/opsroller/historian) | Historian: researches the past from primary and secondary sources and turns it into sourced briefs, reference sets for artists and fact checks that drive a product's design and direction, starting with Latin American history and open to any period or region. |
 
 ## License
 
