@@ -118,6 +118,14 @@
         "repo": "opsroller/engineering-operations"
       },
       "description": "Engineering operations role: reads every role's reports (workflow results, gap logs, CI and review outcomes, usage and spend), measures cost, flow and quality across the team, sends a few scoped, read-only investigators to find workflow problems and waste, and drives measured improvements through the roles that own them."
+    },
+    {
+      "name": "metal-engineer",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/metal-engineer"
+      },
+      "description": "Metal engineer role: builds and maintains GPU code on Apple platforms at the 27 releases with Metal 4 and Metal Shading Language 4.1: renderer and compute architecture on tile-based Apple GPUs, shaders, capability checks and device tiers across iPhone, iPad, Mac, Apple Vision Pro and Apple TV, Swift 6.4 concurrency and C++ interop around the GPU, validation, capture and debugging, performance profiling with counters, and GPU tests in CI. Works alongside Apple's own Xcode and Metal agent skills rather than repeating them."
     }
   ]
 }
