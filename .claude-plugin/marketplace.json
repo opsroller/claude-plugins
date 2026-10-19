@@ -134,6 +134,14 @@
         "repo": "opsroller/it-support"
       },
       "description": "IT support and systems administration role: answers support requests by triage, diagnosis and a reversible fix; administers operating systems, NixOS first (declarative configuration, flakes, generations and rollback) and other Linux distributions and macOS too; searches nixpkgs first through the bundled nixos MCP server (mcp-nixos from nixpkgs); runs NVIDIA drivers and CUDA, and libvirt/KVM virtual machines with virsh; and treats every change as reviewed, tested, reversible and documented."
+    },
+    {
+      "name": "historian",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/historian"
+      },
+      "description": "Historian and researcher role: answers questions about the past from primary and secondary sources judged for provenance, perspective and credibility; turns the research into sourced briefs, visual and material reference sets and fact checks that drive a product's design, art, writing and direction; starts from Latin American history (Indigenous civilizations before contact, the colonial era, independence and the modern nations) and works in any period or region; keeps evidence, interpretation and invention apart; and treats living communities' heritage with care, credit and consent."
     }
   ]
 }
