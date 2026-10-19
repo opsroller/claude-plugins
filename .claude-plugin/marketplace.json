@@ -126,6 +126,14 @@
         "repo": "opsroller/metal-engineer"
       },
       "description": "Metal engineer role: builds and maintains GPU code on Apple platforms at the 27 releases with Metal 4 and Metal Shading Language 4.1: renderer and compute architecture on tile-based Apple GPUs, shaders, capability checks and device tiers across iPhone, iPad, Mac, Apple Vision Pro and Apple TV, Swift 6.4 concurrency and C++ interop around the GPU, validation, capture and debugging, performance profiling with counters, and GPU tests in CI. Works alongside Apple's own Xcode and Metal agent skills rather than repeating them."
+    },
+    {
+      "name": "it-support",
+      "source": {
+        "source": "github",
+        "repo": "opsroller/it-support"
+      },
+      "description": "IT support and systems administration role: answers support requests by triage, diagnosis and a reversible fix; administers operating systems, NixOS first (declarative configuration, flakes, generations and rollback) and other Linux distributions and macOS too; searches nixpkgs first through the bundled nixos MCP server (mcp-nixos from nixpkgs); runs NVIDIA drivers and CUDA, and libvirt/KVM virtual machines with virsh; and treats every change as reviewed, tested, reversible and documented."
     }
   ]
 }
